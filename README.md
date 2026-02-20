@@ -29,6 +29,7 @@ Actualmente, las librerías empleadas en el desarrollo de las tareas son:
 
 - `numpy` → Cálculo numérico y manejo de arreglos.
 - `matplotlib` → Visualización gráfica de resultados.
+- `scipy` → Principalmente métodos de optimización
 
 A medida de que se empleen librerias adicionales se actualizarán en este README.
 
@@ -39,4 +40,4 @@ A medida de que se empleen librerias adicionales se actualizarán en este README
 Instalar las librerías necesarias con:
 
 ```bash
-pip install numpy matplotlib
+pip install numpy matplotlib scipy
