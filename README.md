@@ -1,43 +1,33 @@
-# Optimizacion – IELE4011  
-**Autor:** Carlos Tovar  
-**Código:** 202311530  
+# Optimización — IELE4011
+
+**Autor:** Carlos Andres Tovar · **Código:** 202311530
 
 ---
 
-## Descripción
+## Contenido
 
-Este repositorio contiene el desarrollo de las tareas del curso **Optimizacion – IELE4011**.  
-
-Las soluciones se realizan en **Python** utilizando **Jupyter Notebook (.ipynb)**
----
-
-## Entorno de Desarrollo
-
-- **Lenguaje:** Python 3.x  
-- **Formato de trabajo:** Jupyter Notebook (`.ipynb`)  
-
-Se recomienda ejecutar los archivos en:
-- Jupyter Notebook  
-- JupyterLab  
-- Visual Studio Code con extensión de Jupyter  
+| Tarea | Tema | Archivo |
+|-------|------|---------|
+| Tarea 2 | Método Símplex · Programación lineal · Asignación | [Tarea_2/Tarea 2.ipynb](Tarea_2/Tarea%202.ipynb) |
+| Tarea 4 | Descenso de gradiente · Superficies cuadráticas | [Tarea 4/Tarea 4.ipynb](Tarea%204/Tarea%204.ipynb) |
+| Tarea 5 | TSP: Vecino más cercano + 2-opt | [Tarea 5/Tarea 5.ipynb](Tarea%205/Tarea%205.ipynb) |
 
 ---
 
-## Librerías Utilizadas
-
-Actualmente, las librerías empleadas en el desarrollo de las tareas son:
-
-- `numpy` → Cálculo numérico y manejo de arreglos.
-- `matplotlib` → Visualización gráfica de resultados.
-- `scipy` → Principalmente métodos de optimización
-
-A medida de que se empleen librerias adicionales se actualizarán en este README.
-
----
-
-## Instalación de Dependencias
-
-Instalar las librerías necesarias con:
+## Instalación
 
 ```bash
-pip install numpy matplotlib scipy
+pip install -r requirements.txt
+```
+
+Entornos compatibles: Jupyter Notebook, JupyterLab, VS Code + extensión Jupyter.
+
+---
+
+## Librerías
+
+| Paquete | Uso |
+|---------|-----|
+| `numpy` | Álgebra lineal, arreglos, generación aleatoria |
+| `matplotlib` | Gráficas 2D y 3D (`mpl_toolkits.mplot3d`) |
+| `scipy` | `linprog`, `linear_sum_assignment` |

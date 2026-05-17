@@ -1,0 +1,17 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+optimizacion/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
+Thumbs.db
